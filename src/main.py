@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-
 from fastapi.middleware.cors import CORSMiddleware
 from src.utils.routers import router
 from src.utils.config import APP_NAME, VERSION
